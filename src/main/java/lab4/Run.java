@@ -8,7 +8,7 @@ public class Run {
         UniversityJSONReaderWriter universityJSONReaderWriter = new UniversityJSONReaderWriter();
         UniversityCreator universityCreator=new UniversityCreator();
         University initialUniversity = universityCreator.createUniversityRandomly();
-        universityJSONReaderWriter.writeToFile(initialUniversity, "./src/main/resources/lab4FileForText.txt");
-        University universityFromFile = universityJSONReaderWriter.readFromFile("./src/main/resources/lab4FileForText.txt");
+        universityJSONReaderWriter.writeToFile(initialUniversity, "./src/main/resources/lab4FileForText.json");
+        University universityFromFile = universityJSONReaderWriter.readFromFile("./src/main/resources/lab4FileForText.json");
     }
 }
