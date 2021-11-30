@@ -1,15 +1,12 @@
 package lab2.model;
-
 import java.util.List;
 import java.util.Objects;
 
 public class Chair extends EducationalUnit{
     private List<Group> groups;
-
     public List<Group> getGroups() {
         return groups;
     }
-
     public void setGroups(List<Group> groups) {
         this.groups = groups;
     }

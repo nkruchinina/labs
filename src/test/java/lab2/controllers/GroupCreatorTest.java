@@ -1,13 +1,9 @@
 package lab2.controllers;
-
 import lab2.model.Group;
 import lab2.model.Human;
 import org.junit.jupiter.api.Test;
-
 import java.util.HashSet;
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class GroupCreatorTest {
 
@@ -29,6 +25,6 @@ class GroupCreatorTest {
                 result++;
             }
         }
-        System.out.println(result / count * 100 + "%");
+        System.out.println("Probability of duplicating of the personal data of people in one group: " + result / count * 100 + "%");
     }
 }

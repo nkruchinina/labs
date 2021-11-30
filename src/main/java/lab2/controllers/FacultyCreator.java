@@ -11,7 +11,8 @@ import java.util.Random;
 public class FacultyCreator {
     public static final int MIN_FACULTY_SIZE = 1;
     public static final int MAX_FACULTY_SIZE = 3;
-    public static final List<String> DICTIONARY_NAMES_OF_FACULTIES = Arrays.asList("Faculty of Information Technologies", "Faculty of Finances and Economics", "Faculty of Law");
+    public static final List<String> DICTIONARY_NAMES_OF_FACULTIES = Arrays.asList("Faculty of Information Technologies",
+            "Faculty of Finances and Economics", "Faculty of Law");
 
     public Faculty createFacultyRandomly(){
         Random random = new Random();

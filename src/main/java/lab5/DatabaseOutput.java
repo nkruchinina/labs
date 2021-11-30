@@ -11,9 +11,9 @@ public class DatabaseOutput {
              ResultSet resultSet = statement.executeQuery(query);
         ) {
             while(resultSet.next()){
-                System.out.println("Name: "+resultSet.getString("Name"));
-                System.out.println("Surname: "+resultSet.getString("Surname"));
-                System.out.println("Date of birth: "+resultSet.getString("Date of birth"));
+                System.out.println("Name: " + resultSet.getString("Name") + "  Surname: " +
+                        resultSet.getString("Surname") + "  Date of birth: "+
+                        resultSet.getString("Date of birth"));
             }
         } catch (SQLException e) {
             e.printStackTrace();

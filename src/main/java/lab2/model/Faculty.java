@@ -5,11 +5,9 @@ import java.util.Objects;
 
 public class Faculty extends EducationalUnit{
     private List<Chair> chairs;
-
     public List<Chair> getChairs() {
         return chairs;
     }
-
     public void setChairs(List<Chair> chairs) {
         this.chairs = chairs;
     }

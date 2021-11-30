@@ -1,18 +1,16 @@
 package lab2.controllers;
-
 import lab2.model.Group;
 import lab2.model.Human;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
 public class GroupCreator {
-
     public static final int MIN_GROUP_SIZE = 15;
     public static final int MAX_GROUP_SIZE = 30;
-    public static final List<String> DICTIONARY_NAMES_OF_GROUPS = Arrays.asList("124-18-1", "122-19-1", "123-20-1", "123-20-2", "123-20-3", "075-16-1", "071-17-1", "071-17-2", "052-18-1");
+    public static final List<String> DICTIONARY_NAMES_OF_GROUPS = Arrays.asList("124-18-1", "122-19-1", "123-20-1", "123-20-2",
+            "123-20-3", "075-16-1", "071-17-1", "071-17-2", "052-18-1");
 
     public Group createGroupRandomly(){
         Random random = new Random();

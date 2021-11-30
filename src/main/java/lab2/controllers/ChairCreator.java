@@ -1,18 +1,17 @@
 package lab2.controllers;
-
 import lab2.model.Chair;
 import lab2.model.Group;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
 public class ChairCreator {
-
     public static final int MIN_CHAIR_SIZE = 5;
     public static final int MAX_CHAIR_SIZE = 10;
-    public static final List<String> DICTIONARY_NAMES_OF_CHAIRS = Arrays.asList("Chair of System Analyses", "Chair of Software Engineering", "Chair of Information Systems and Technologies", "Chair of Marketing", "Chair of Accounting and Audit", "Chair of History and Political Theory");
+    public static final List<String> DICTIONARY_NAMES_OF_CHAIRS = Arrays.asList("Chair of System Analyses",
+            "Chair of Software Engineering", "Chair of Information Systems and Technologies", "Chair of Marketing",
+            "Chair of Accounting and Audit", "Chair of History and Political Theory");
 
     public Chair createChairRandomly(){
         Random random = new Random();
